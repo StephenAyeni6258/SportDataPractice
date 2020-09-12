@@ -1,0 +1,29 @@
+---
+title: "NBA Player of the Week"
+author: "Noah Kasten"
+date: "9/12/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#**Brainstorm Notes**
+
+##1. Use player of the week to find correlation between conference finals appearance and total player of the week awards
+
+##2. Use player of the week to find correlation between finals appearance and total player of the week awards
+
+##3. Use player of the week to find correlation between MVP/DPOTY award and total player of the week awards
+
+##4. Use player of the week to find correlation between players year in the NBA and total player of the week awards
+
+#**Import data set**
+
+```{r}
+library(readr)
+NBA_player_of_the_week <- read_csv("NBA_player_of_the_week.csv")
+View(NBA_player_of_the_week)
+```
+
